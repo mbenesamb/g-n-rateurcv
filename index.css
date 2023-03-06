@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none
+    text-decoration: none;
+    }
+body
+{
+background-image: url("ff.webp");
+background-size: cover;
+background-position: center;
+height: 200vh;
+}
+    
+    #div1
+    {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: rgb(104, 41, 83);
+    }
+    
+    #div2 h1{
+    front: 18px;
+    letter-spacing: 2px;
+    color: rgb(170, 89, 150);
+    }
+    
+ 
+    .btn{
+        top: 76%;
+        left: 100%;
+        position: absolute;
+        line-height:1.8;
+        } 
+        
+        .btn button{
+        width: 200px;
+        height: 40px;
+        border-radfus: 25px;
+        background: transparent;
+        color: yellow;
+        font-size: 20px;
+        border:1px solid red;
+        }
+        
+        .btn button:hover{
+        background: red;
+        transform:scale(1.1);
+        }
+        .container {
+        color:rgb(14, 1, 1);
+        float: left;
+        }
+        
+        .box{
+            margin: 20px;
+            height: 550px;
+            text-align: justify;
+            padding: 40px;
+            color: black;
+            line-height: 1.6;
+            width: 340px;
+            box-shadow: 0 5px 10px black;
+            }
+            
+        
+        .box1{
+        background-image: url(j.jpg); 
+        background-size: cover;
+        background-position: center;
+        background-color:yellow
+        background-blend-mode: darken;
+        }
+        
+        .btn1 button{
+        width: 200px;
+        height: 40px;
+        border-radius: 25px;
+        background: transparent;
+        color: brown;
+        font-size: 20px;
+        border: 1px solid rgb(70, 8, 61);
+        transition: 0.5s;
+        }
+        
+        .btn1 button:hover{
+        background: rgb(228, 151, 216);
+        transform: scale(1.1);
+        }
+    
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    z-index: -100;
+
+}
+ header {
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: content;
+    width: 100%;
+    padding: -20px 10px 20px;
+}
+nav .logo {
+    width: 50%;
+    padding: 0px 10px 40px;
+    margin-left: -30%;
+    height: 100%;
+}
+nav .menu-icon {
+    width: 60px;
+    cursor: pointer;
+}
+nav ul {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+}
+nav ul li {
+    list-style: none;
+    margin-left: 20px;
+
+}
+
+nav ul li a {
+     text-decoration: none;
+     color: brown;
+     font-size: 1.2rem;
+     transition: color 0.3s;
+
+}
+
+nav ul li a:hover {
+    color: bisque;
+}
+
+.text {
+    padding: 70px 0px ;
+    color: rgb(3, 3, 3);
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 10px 0px 10px;
+
+}
+
+.text h1 {
+    font-size: 75px;
+    line-height: 1;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+
+}
+
+.text p {
+    font-size: 1.2rem;
+    line-height: 1;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+
+}
+
+
+.bb h1 {
+    font-size: 10px;
+    line-height: 1;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+    float: left;
+}
+
+
+#div2
+{
+front: 18px;
+letter-spacing: 2px;
+color: rgb(255, 0, 76);
+}
